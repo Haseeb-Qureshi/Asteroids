@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)file:///Users/appacademy/Projects/asteroids/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title></title>
+    <link href="./index_files/css" rel="stylesheet" type="text/css">
+    <link href="./index_files/css(1)" rel="stylesheet" type="text/css">
+    <script src="./index_files/keymaster.js"></script>
+    <script src="./index_files/utils.js"></script>
+    <script src="./index_files/movingObject.js"></script>
+    <script src="./index_files/asteroid.js"></script>
+    <script src="./index_files/audio.js"></script>
+    <script src="./index_files/ship.js"></script>
+    <script src="./index_files/bullet.js"></script>
+    <script src="./index_files/particle.js"></script>
+    <script src="./index_files/powerUp.js"></script>
+    <script src="./index_files/game.js"></script>
+    <script src="./index_files/gameView.js"></script>
+    <script src="./index_files/keyListener.js"></script>
+  </head>
+  <body>
+    <canvas id="game-canvas" width="800" height="600"></canvas>
+    <script type="text/javascript">
+      var canvas = document.getElementById("game-canvas");
+      var ctx = canvas.getContext('2d');
+      var gameView = new Asteroids.GameView(canvas, ctx);
+      gameView.start();
+    </script>
+  
+
+</body></html>

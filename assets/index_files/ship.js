@@ -156,9 +156,9 @@
     if (!Asteroids.Util.isZeroVec(this.vel)) {
       ctx.shadowColor = "yellow";
       var os = this.radius * 2;
-      ctx.shadowOffsetX = -(0.85 * this.vel[0]);
-      ctx.shadowOffsetY = -(0.85 * this.vel[1]);
-      ctx.shadowBlur = 2;
+      ctx.shadowOffsetX = -(Math.log(5 * this.vel[0], 2));
+      ctx.shadowOffsetY = -(Math.log(5 * this.vel[1], 2));
+      ctx.shadowBlur = 10;
     }
     ctx.fillStyle = grd;
     ctx.fill();
