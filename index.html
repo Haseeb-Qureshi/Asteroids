@@ -21,8 +21,7 @@
     <script type="text/javascript">
       var canvas = document.getElementById("game-canvas");
       var ctx = canvas.getContext('2d');
-      var game = new Asteroids.Game();
-      var gameView = new Asteroids.gameView(game, ctx);
+      var gameView = new Asteroids.GameView(ctx);
       gameView.start();
     </script>
   </body>
