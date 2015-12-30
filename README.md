@@ -1,7 +1,8 @@
-# asteroids
+# Asteroids Redux
 A spin on the classic arcade game, made using JavaScript.
 
-Work in progress (LIVE AT: http://haseeb-qureshi.github.io/Asteroids/ )
+LIVE AT: http://haseeb-qureshi.github.io/Asteroids/
 
-# TODO
-* Sounds
+**Note: HTML5 Canvas drawing has major performance issues on Firefox. Please use IE or Chrome for maximal performance.**
+
+[./assets/asteroids.gif][]
