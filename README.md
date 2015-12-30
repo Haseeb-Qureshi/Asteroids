@@ -5,4 +5,4 @@ LIVE AT: http://haseeb-qureshi.github.io/Asteroids/
 
 **Note: HTML5 Canvas drawing has major performance issues on Firefox. Please use IE or Chrome for maximal performance.**
 
-[./assets/asteroids.gif][]
+![./assets/asteroids.gif][asteroids]
