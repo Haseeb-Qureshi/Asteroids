@@ -23,3 +23,8 @@
 * Particle effects generated dynamically using opacity and size throttling
 * Garbage collects unused sprites and particles based on positioning and age
 * Uses trigonometric functions to calculate movement physics, rotation, and ship geometry
+
+# Todo
+* Retry on space
+* Tank controls?
+* Invincible on spawn
