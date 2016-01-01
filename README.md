@@ -25,4 +25,4 @@
 * Uses trigonometric functions to calculate movement physics, rotation, and ship geometry
 
 # Todo
-* Invincible on spawn
+* Invincibility on spawn
